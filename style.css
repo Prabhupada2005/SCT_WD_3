@@ -1,0 +1,116 @@
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-image: url(Tic_4.jpeg);
+    background-repeat: no-repeat;
+    background-size: max(1165px, 100vw);
+    text-align: center;
+  }
+  
+  .container {
+    height: 70vh;
+    display: flex;
+  
+    justify-content: center;
+    align-items: center;
+  }
+  h1{
+    /* margin-top: 28px; */
+    font-weight: 2500;
+    color: #ddad33;
+    text-shadow: black;
+    font-size: 50px;
+    /* font-weight: 800; */
+    z-index: 1;
+    margin-bottom: 60px; 
+    text-align: center;
+  }
+  .game {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+  }
+  
+  .box {
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 2.5rem;
+    border: none;
+    box-shadow: 0 0 10rem rgba(8, 6, 6, 0);
+    font-size: 11vmin;
+    color: #edc96d;
+    backdrop-filter: blur(15px);
+    background: transparent;
+    border: 1px solid ;
+  }
+  
+  #reset-btn{
+    padding: 1rem;
+    font-size: 1.25rem;
+    border: 2px solid #ddad33;
+    border-radius: 15rem;
+    background-color: #191913;
+    color: #fff;
+    border-radius: 1rem;
+  }
+  #new-btn{
+    padding: 1rem;
+    font-size: 1.25rem;
+    border: 2px solid gold;
+    background-color: #191913;
+    color: #fff;
+    border-radius: 1rem;
+}
+  
+  #msg{
+    color: rgb(223, 164, 14);
+    font-size: 15vmin;
+}
+  
+  .msg-container {
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+  }
+  
+  .hide {
+    display: none;
+  }
+
+/* .box::before{
+    content: '';
+    position: absolute;
+    width: 406px;
+    background-image: linear-gradient(180deg , #ddad33,gold);
+    height: 100px;
+    animation: rotBig 3s linear infinite;
+    transition: all 0.2s linear;
+} */
+
+/* @keyframes rotBig {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+    
+}
+
+.box::after{
+    content: '';
+    position: absolute;
+    inset: 5px; 
+    border-radius: 15px;
+} */ 
